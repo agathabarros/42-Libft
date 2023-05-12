@@ -35,39 +35,46 @@ This is a header file for a C language library called libft, which is a library 
 
 [ft_strlcpy](https://github.com/agathabarros/42-Libft/blob/master/ft_strlcpy.c): *Copy string from src to dest up to size.*
 
-[ft_strlcat](https://github.com/agathabarros/42-Libft/blob/master/ft_strlcat.c): **
+[ft_strlcat](https://github.com/agathabarros/42-Libft/blob/master/ft_strlcat.c): *Appends the src string to the end of the dst string.*
 
-[ft_toupper](https://github.com/agathabarros/42-Libft/blob/master/ft_toupper.c): **
+[ft_toupper](https://github.com/agathabarros/42-Libft/blob/master/ft_toupper.c): *Convert lowercase letters to uppercase*
 
-[ft_tolower](https://github.com/agathabarros/42-Libft/blob/master/ft_tolower.c): **
+[ft_tolower](https://github.com/agathabarros/42-Libft/blob/master/ft_tolower.c): *Converts uppercase letters to lowercase.*
 
-[ft_strchr](https://github.com/agathabarros/42-Libft/blob/master/ft_strchr.c): **
+[ft_strchr](https://github.com/agathabarros/42-Libft/blob/master/ft_strchr.c): *Searches for the first occurrence of the character c in the string pointed to by s*
 
-[ft_strncmp](https://github.com/agathabarros/42-Libft/blob/master/ft_strncmp.c): **
+[ft_strrchr](https://github.com/agathabarros/42-Libft/blob/master/ft_strrchr.c): *Searches for the last occurrence of the character c in the string pointed to by s.*
 
-[ft_strnstr](https://github.com/agathabarros/42-Libft/blob/master/ft_strnstr.c): **
+[ft_strncmp](https://github.com/agathabarros/42-Libft/blob/master/ft_strncmp.c): *Compares the first n characters of s1 and s2 memory.
+Return < 0, s1 is less. return > 0, s2 is less. Return = 0.*
 
-[ft_atoi](https://github.com/agathabarros/42-Libft/blob/master/ft_atoi.c): **
+[ft_strnstr](https://github.com/agathabarros/42-Libft/blob/master/ft_strnstr.c): *Finds the first substring (little) in a string(big) with limited length(len).*
+
+[ft_atoi](https://github.com/agathabarros/42-Libft/blob/master/ft_atoi.c): *Converts String to integers.*
 
 ### Memory manipulation:
-[ft_memset](https://github.com/agathabarros/42-Libft/blob/master/ft_memset.c):
 
-[ft_bzero](https://github.com/agathabarros/42-Libft/blob/master/ft_bzero.c):
+[ft_memset](https://github.com/agathabarros/42-Libft/blob/master/ft_memset.c): *Copies the character c to the first n characters of the string pointed to by s.*
 
-[ft_memmove](https://github.com/agathabarros/42-Libft/blob/master/ft_memmove.c):
+[ft_bzero](https://github.com/agathabarros/42-Libft/blob/master/ft_bzero.c): *Erases the data in the first n bytes of memory from the location pointed to by s and writes zeros in their place.*
 
-[ft_memchr](https://github.com/agathabarros/42-Libft/blob/master/ft_memchr.c):
+[ft_memcpy](https://github.com/agathabarros/42-Libft/blob/master/ft_memcpy.c): *Copies n characters from src memory to dest memory.*
 
-[ft_memcmp](https://github.com/agathabarros/42-Libft/blob/master/ft_memcmp.c):
+[ft_memmove](https://github.com/agathabarros/42-Libft/blob/master/ft_memmove.c): *Copies n characters from src to dest, but for blocks of overlapping memory, memmove() is a safer approach than memcpy()*
+
+[ft_memchr](https://github.com/agathabarros/42-Libft/blob/master/ft_memchr.c): *Searches for the first occurrence of the character c in the first n bytes of the string pointed to by s. Returns a pointer to the byte corresponding.*
+
+[ft_memcmp](https://github.com/agathabarros/42-Libft/blob/master/ft_memcmp.c): *Compares the first n bytes of memory s1 and memory s2. Return < 0, s1 is less. return > 0, s2 is less. Return = 0.*
 
 ### With malloc:
-[ft_calloc](https://github.com/agathabarros/42-Libft/blob/master/ft_calloc.c):
+[ft_calloc](https://github.com/agathabarros/42-Libft/blob/master/ft_calloc.c): *Allocates the requested memory and returns a pointer to it. Calloc, unlike Malloc, sets the allocated memory to zero.*
 
-[ft_strdup](https://github.com/agathabarros/42-Libft/blob/master/ft_strdup.c):
+[ft_strdup](https://github.com/agathabarros/42-Libft/blob/master/ft_strdup.c): *Function returns a pointer to a new string which is a duplicate of the string s. Returns a pointer to a string (created with malloc), which is a duplicate of the string pointed to by s.*
 
 ## Part 2
 
 String manipulation:
+
 [ft_substr](https://github.com/agathabarros/42-Libft/blob/master/ft_substr.c):
 
 [ft_strjoin](https://github.com/agathabarros/42-Libft/blob/master/ft_strjoin.c):
@@ -75,6 +82,8 @@ String manipulation:
 [ft_strtrim](https://github.com/agathabarros/42-Libft/blob/master/ft_strtrim.c):
 
 [ft_split](https://github.com/agathabarros/42-Libft/blob/master/ft_split.c):
+
+[ft_itoa](https://github.com/agathabarros/42-Libft/blob/master/ft_itoa.c):
 
 [ft_strmapi](https://github.com/agathabarros/42-Libft/blob/master/ft_strmapi.c):
 
