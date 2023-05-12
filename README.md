@@ -3,9 +3,9 @@ This document provides information about the Libft project for 42 - Common Core,
 
 To build the library, simply run the following command in the repository's root directory:
 
-Mandatory : make
+Mandatory : `make`
 
-Bonus Part: make bonus
+Bonus Part: `make bonus`
 
 This will generate the libft.a file, which can be linked to your C project.
 
@@ -18,12 +18,33 @@ The makefile is a file used to automate the compilation of programs into a proje
 This is a header file for a C language library called libft, which is a library of common functions written for use in future projects. This header includes several function declarations as well as a structure that will be used for implementing the extra bonus functions.
 
 ## Part 1
-[ft_isalpha](https://github.com/agathabarros/42-Libft/blob/master/ft_isalpha.c)
-[ft_isdigit](https://github.com/agathabarros/42-Libft/blob/master/ft_isdigit.c)
-[ft_isalnum](https://github.com/agathabarros/42-Libft/blob/master/ft_isalnum.c)
-[ft_isascii](https://github.com/agathabarros/42-Libft/blob/master/ft_isascii.c)
+Character manipulation:
+[ft_isalpha](https://github.com/agathabarros/42-Libft/blob/master/ft_isalpha.c),
+[ft_isdigit](https://github.com/agathabarros/42-Libft/blob/master/ft_isdigit.c),
+[ft_isalnum](https://github.com/agathabarros/42-Libft/blob/master/ft_isalnum.c),
+[ft_isascii](https://github.com/agathabarros/42-Libft/blob/master/ft_isascii.c),
 [ft_isprint](https://github.com/agathabarros/42-Libft/blob/master/ft_isprint.c)
+
+String manipulation:
 [ft_strlen](https://github.com/agathabarros/42-Libft/blob/master/ft_strlen.c)
+[ft_strlcpy](https://github.com/agathabarros/42-Libft/blob/master/ft_strlcpy.c)
+[ft_strlcat](https://github.com/agathabarros/42-Libft/blob/master/ft_strlcat.c)
+[ft_toupper](https://github.com/agathabarros/42-Libft/blob/master/ft_toupper.c)
+[ft_tolower](https://github.com/agathabarros/42-Libft/blob/master/ft_tolower.c)
+[ft_strchr](https://github.com/agathabarros/42-Libft/blob/master/ft_strchr.c)
+[ft_strncmp](https://github.com/agathabarros/42-Libft/blob/master/ft_strncmp.c)
+[ft_strnstr](https://github.com/agathabarros/42-Libft/blob/master/ft_strnstr.c)
+[ft_atoi](https://github.com/agathabarros/42-Libft/blob/master/ft_atoi.c)
+
+Memory manipulation:
+[ft_memset](https://github.com/agathabarros/42-Libft/blob/master/ft_memset.c)
+[ft_bzero](https://github.com/agathabarros/42-Libft/blob/master/ft_bzero.c)
+[ft_memmove](https://github.com/agathabarros/42-Libft/blob/master/ft_memmove.c)
+[ft_memchr](https://github.com/agathabarros/42-Libft/blob/master/ft_memchr.c)
+[ft_memcmp](https://github.com/agathabarros/42-Libft/blob/master/ft_memcmp.c)
+
+[ft_calloc](https://github.com/agathabarros/42-Libft/blob/master/ft_calloc.c)
+[ft_strdup](https://github.com/agathabarros/42-Libft/blob/master/ft_strdup.c)
 
 ## Part 2
 
