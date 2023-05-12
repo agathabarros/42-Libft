@@ -34,38 +34,60 @@ This is a header file for a C language library called libft, which is a library 
 [ft_strlen](https://github.com/agathabarros/42-Libft/blob/master/ft_strlen.c): *Calculates the length of a given string.*
 
 [ft_strlcpy](https://github.com/agathabarros/42-Libft/blob/master/ft_strlcpy.c): *Copy string from src to dest up to size.*
+
 [ft_strlcat](https://github.com/agathabarros/42-Libft/blob/master/ft_strlcat.c): **
+
 [ft_toupper](https://github.com/agathabarros/42-Libft/blob/master/ft_toupper.c): **
+
 [ft_tolower](https://github.com/agathabarros/42-Libft/blob/master/ft_tolower.c): **
+
 [ft_strchr](https://github.com/agathabarros/42-Libft/blob/master/ft_strchr.c): **
+
 [ft_strncmp](https://github.com/agathabarros/42-Libft/blob/master/ft_strncmp.c): **
+
 [ft_strnstr](https://github.com/agathabarros/42-Libft/blob/master/ft_strnstr.c): **
+
 [ft_atoi](https://github.com/agathabarros/42-Libft/blob/master/ft_atoi.c): **
 
 ### Memory manipulation:
 [ft_memset](https://github.com/agathabarros/42-Libft/blob/master/ft_memset.c):
+
 [ft_bzero](https://github.com/agathabarros/42-Libft/blob/master/ft_bzero.c):
+
 [ft_memmove](https://github.com/agathabarros/42-Libft/blob/master/ft_memmove.c):
+
 [ft_memchr](https://github.com/agathabarros/42-Libft/blob/master/ft_memchr.c):
+
 [ft_memcmp](https://github.com/agathabarros/42-Libft/blob/master/ft_memcmp.c):
 
-  ### With malloc:
-  [ft_calloc](https://github.com/agathabarros/42-Libft/blob/master/ft_calloc.c):
-  [ft_strdup](https://github.com/agathabarros/42-Libft/blob/master/ft_strdup.c):
+### With malloc:
+[ft_calloc](https://github.com/agathabarros/42-Libft/blob/master/ft_calloc.c):
+
+[ft_strdup](https://github.com/agathabarros/42-Libft/blob/master/ft_strdup.c):
 
 ## Part 2
 
 String manipulation:
 [ft_substr](https://github.com/agathabarros/42-Libft/blob/master/ft_substr.c):
+
 [ft_strjoin](https://github.com/agathabarros/42-Libft/blob/master/ft_strjoin.c):
+
 [ft_strtrim](https://github.com/agathabarros/42-Libft/blob/master/ft_strtrim.c):
+
 [ft_split](https://github.com/agathabarros/42-Libft/blob/master/ft_split.c):
+
 [ft_strmapi](https://github.com/agathabarros/42-Libft/blob/master/ft_strmapi.c):
+
 [ft_striteri](https://github.com/agathabarros/42-Libft/blob/master/ft_striteri.c):
+
 [ft_putchar_fd](https://github.com/agathabarros/42-Libft/blob/master/ft_putchar_fd.c):
+
 [ft_putstr_fd](https://github.com/agathabarros/42-Libft/blob/master/ft_putstr_fd.c):
+
 [ft_putendl_fd](https://github.com/agathabarros/42-Libft/blob/master/ft_putendl_fd.c):
+
 [ft_putnbr_fd](https://github.com/agathabarros/42-Libft/blob/master/ft_putnbr_fd.c):
+
 
 ## Bonus Part
 
