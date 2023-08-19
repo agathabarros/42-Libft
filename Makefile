@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: agpereir <agpereir@student.42.fr>          +#+  +:+       +#+         #
+#    By: agathabarros <agathabarros@student.42.f    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/04/13 17:04:13 by agpereir          #+#    #+#              #
-#    Updated: 2023/05/04 15:01:23 by agpereir         ###   ########.fr        #
+#    Updated: 2023/08/19 17:41:52 by agathabarro      ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -28,7 +28,7 @@ PART2 = ft_itoa.c ft_strjoin.c ft_split.c ft_striteri.c ft_strmapi.c \
 BONUS = ft_lstnew.c ft_lstadd_front.c ft_lstadd_back.c ft_lstdelone.c ft_lstclear.c \
 		ft_lstiter.c ft_lstmap.c ft_lstsize.c ft_lstlast.c
 
-SRC = ${PART1} ${PART2}
+SRC = ${PART1} ${PART2} ${BONUS}
 
 OBJS = ${SRC:.c=.o}
 BONUS_OBJS = ${BONUS:.c=.o}
