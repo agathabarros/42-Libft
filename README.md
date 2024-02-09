@@ -1,4 +1,9 @@
 # 42-Libft
+<p align="center">
+  <img src="https://github.com/agathabarros/42-project-badges/blob/main/badges/libftm.png"/>
+</p>
+
+## *Grade: 125 / 100*
 This document provides information about the Libft project for 42 - Common Core, including a list of mandatory functions such as ft_isalpha, ft_isdigit, ft_strlen, and others. 
 
 To build the library, simply run the following command in the repository's root directory:
