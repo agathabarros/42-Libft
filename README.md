@@ -130,4 +130,9 @@ String manipulation:
   *Add a new node and initialize next to null. Allocates (with malloc(3)) and returns a new node.
 The member variable ’content’ is initialized with the value of the parameter ’content’. The variable ’next’ is initialized to NULL.*
 
+
+## ft_printf
+
+## get_next_line
+
 /*Notion with code explanation [here](https://time-block-641.notion.site/Libft-8b3810011e254dc98a3ab4bc2c3bf7c8).*/

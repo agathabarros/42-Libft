@@ -6,7 +6,7 @@
 /*   By: agpereir <agpereir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/13 17:04:46 by agpereir          #+#    #+#             */
-/*   Updated: 2023/04/26 13:01:36 by agpereir         ###   ########.fr       */
+/*   Updated: 2024/01/10 16:22:30 by agpereir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,50 @@
 # include <unistd.h>
 # include <stdio.h>
 # include <stddef.h>
+#include <stdarg.h>
+# include <string.h>
+# include <sys/types.h>
+# include <sys/stat.h>
+# include <fcntl.h>
+
+
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 10000000
+# endif
+
+//------ GNL -----//
+char		*get_keep(char *buffer);
+char		*get_line_gnl(char *buffer);
+char		*get_next_line(int fd);
+//------ UTILS -----//
+char		*ft_strjoin_gnl(char *s1, char *s2);
+int			ft_strchr_gnl(char *str, char c);
+
+//------ PRINTF -----//
+
+int		ft_printf(const char *str, ...);
+size_t	ft_strlen_pf(const char *str);
+
+/*----------libftfunctions----------*/
+void	ft_putchar(char c);
+void	ft_putstr(char *s);
+
+/*----------std----------*/
+int		ft_print_chr(char c);
+int		ft_print_str(char *str);
+int		ft_print_nbr(int nbr);
+
+/*----------unsig----------*/
+int		ft_print_unsig(unsigned int nbr);
+
+/*----------hex----------*/
+int		ft_print_hex(unsigned int n, const char form);
+
+/*----------pointer----------*/
+int		ft_print_pointer(unsigned long ptr);
+
+/*----------count----------*/
+int		ft_hex_point_len(unsigned long nbr);
 
 //------ INT -----//
 int		ft_atoi(char *str);
